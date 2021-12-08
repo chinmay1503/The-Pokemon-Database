@@ -10,25 +10,25 @@ But for this project, we will be focusing on the original 151 pokemons which are
 ## Table Information 
 There are total 10 tables in the Pokemon Database, those are :
 
-Pokemon - The main table that contains details of all the Pokemons
+* Pokemon - The main table that contains details of all the Pokemons
 
-Type - The domain table that stores details regarding different types that exist in the Pokemon world.
+* Type - The domain table that stores details regarding different types that exist in the Pokemon world.
 
-Pokemon_Types - This table provides information about the type that each Pokemon belongs to. Ex. Bulbasaur is a grass type as well as poison type Pokemon
+* Pokemon_Types - This table provides information about the type that each Pokemon belongs to. Ex. Bulbasaur is a grass type as well as poison type Pokemon
 
-Pokemon_Evolutions - This table stores information about Pokemon’s prevolution
+* Pokemon_Evolutions - This table stores information about Pokemon’s prevolution
 
-Trainer_Class - This table stores information about different Trainer AI’s present in the game.
+* Trainer_Class - This table stores information about different Trainer AI’s present in the game.
 
-Trainer_PkmnTypes - This table stores information about different Pokemons that each Trainer has.
+* Trainer_PkmnTypes - This table stores information about different Pokemons that each Trainer has.
 
-Location - The table stores information about different locations present in the Pokemon world.
+* Location - The table stores information about different locations present in the Pokemon world.
 
-Pokemon_Location - This table contains information about the whereabouts of each Pokemon throughout the world.
+* Pokemon_Location - This table contains information about the whereabouts of each Pokemon throughout the world.
 
-Moves - This table contains information about different Pokemon moves. 
+* Moves - This table contains information about different Pokemon moves. 
 
-Pokemon_moves - This table contains information about moves that each Pokemon posessess. 
+* Pokemon_moves - This table contains information about moves that each Pokemon posessess. 
 
 ## Dataset References
 We referred various websites such as 
