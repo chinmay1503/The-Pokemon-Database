@@ -66,3 +66,22 @@ CREATE Table Pokemon_Evolutions (
 	CONSTRAINT fk_poke_pre_evol FOREIGN KEY(pre_evolution_id) REFERENCES Pokemon(Poke_id),
 	CONSTRAINT fk_poke_id FOREIGN KEY(pokemon_id) REFERENCES Pokemon(Poke_id)
 );
+
+
+CREATE TABLE Trainer_pkmntypes(
+    trainer_id integer,
+    type_id integer
+);
+ALTER TABLE Trainer_pkmntypes
+    ADD CONSTRAINT pkmntypes_trainer_id_fkey FOREIGN KEY (trainer_id) REFERENCES trainer_class(class_id);
+ALTER TABLE Trainer_pkmntypes
+    ADD CONSTRAINT pkmntypes_type_id_fkey FOREIGN KEY (type_id) REFERENCES type(type_id);
+
+CREATE TABLE trainer_class (
+    class_id integer NOT NULL,
+    class_name text
+);
+
+
+ALTER TABLE trainer_class
+    ADD CONSTRAINT trainer_class_pkey PRIMARY KEY (class_id);

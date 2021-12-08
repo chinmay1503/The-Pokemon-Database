@@ -679,3 +679,82 @@ CALL populate_pokemon_moves('Mew','psychic',NULL);
 
 
 ------------------------------------------------------------------------------------------END Populate Pokemon_Moves table--------------------------------------------------------------------------------------------------------------
+INSERT INTO Trainer_pkmntypes VALUES (201, 14);
+INSERT INTO Trainer_pkmntypes VALUES (203, 8);
+INSERT INTO Trainer_pkmntypes VALUES (204, 6);
+INSERT INTO Trainer_pkmntypes VALUES (205, 4);
+INSERT INTO Trainer_pkmntypes VALUES (206, 7);
+INSERT INTO Trainer_pkmntypes VALUES (207, 2);
+INSERT INTO Trainer_pkmntypes VALUES (208, 9);
+INSERT INTO Trainer_pkmntypes VALUES (209, 5);
+INSERT INTO Trainer_pkmntypes VALUES (210, 10);
+INSERT INTO Trainer_pkmntypes VALUES (211, 12);
+INSERT INTO Trainer_pkmntypes VALUES (212, 3);
+INSERT INTO Trainer_pkmntypes VALUES (214, NULL);
+INSERT INTO Trainer_pkmntypes VALUES (215, 15);
+INSERT INTO Trainer_pkmntypes VALUES (216, 7);
+INSERT INTO Trainer_pkmntypes VALUES (217, 12);
+INSERT INTO Trainer_pkmntypes VALUES (218, 11);
+INSERT INTO Trainer_pkmntypes VALUES (219, 13);
+INSERT INTO Trainer_pkmntypes VALUES (220, 4);
+INSERT INTO Trainer_pkmntypes VALUES (221, 3);
+INSERT INTO Trainer_pkmntypes VALUES (222, 14);
+INSERT INTO Trainer_pkmntypes VALUES (223, 6);
+INSERT INTO Trainer_pkmntypes VALUES (224, 4);
+INSERT INTO Trainer_pkmntypes VALUES (225, 8);
+INSERT INTO Trainer_pkmntypes VALUES (226, 3);
+INSERT INTO Trainer_pkmntypes VALUES (228, 7);
+INSERT INTO Trainer_pkmntypes VALUES (229, 4);
+INSERT INTO Trainer_pkmntypes VALUES (230, 2);
+INSERT INTO Trainer_pkmntypes VALUES (231, 11);
+INSERT INTO Trainer_pkmntypes VALUES (232, 2);
+
+----------------------------------------------------------------------------------------------------------------------------End of Trainer_pkmntypes Table------------------------------------------------
+
+
+INSERT INTO trainer_class VALUES (201, 'Youngster');
+INSERT INTO trainer_class VALUES (202, 'BugCatcher');
+INSERT INTO trainer_class VALUES (203, 'Lass');
+INSERT INTO trainer_class VALUES (204, 'Sailor');
+INSERT INTO trainer_class VALUES (205, 'JrTrainerM');
+INSERT INTO trainer_class VALUES (206, 'JrTrainerF');
+INSERT INTO trainer_class VALUES (207, 'Pokemaniac');
+INSERT INTO trainer_class VALUES (208, 'SuperNerd');
+INSERT INTO trainer_class VALUES (209, 'Hiker');
+INSERT INTO trainer_class VALUES (210, 'Biker');
+INSERT INTO trainer_class VALUES (211, 'Burglar');
+INSERT INTO trainer_class VALUES (212, 'Engineer');
+INSERT INTO trainer_class VALUES (214, 'Fisher');
+INSERT INTO trainer_class VALUES (215, 'Swimmer');
+INSERT INTO trainer_class VALUES (216, 'CueBall');
+INSERT INTO trainer_class VALUES (217, 'Gambler');
+INSERT INTO trainer_class VALUES (218, 'Beauty');
+INSERT INTO trainer_class VALUES (219, 'Psychic');
+INSERT INTO trainer_class VALUES (220, 'Rocker');
+INSERT INTO trainer_class VALUES (221, 'Juggler');
+INSERT INTO trainer_class VALUES (222, 'Tamer');
+INSERT INTO trainer_class VALUES (223, 'BirdKeeper');
+INSERT INTO trainer_class VALUES (224, 'Blackbelt');
+INSERT INTO trainer_class VALUES (225, 'Green1');
+INSERT INTO trainer_class VALUES (226, 'ProfOak');
+INSERT INTO trainer_class VALUES (228, 'Scientist');
+INSERT INTO trainer_class VALUES (229, 'Giovanni');
+INSERT INTO trainer_class VALUES (230, 'Rocket');
+INSERT INTO trainer_class VALUES (231, 'CooltrainerM');
+INSERT INTO trainer_class VALUES (232, 'CooltrainerF');
+INSERT INTO trainer_class VALUES (233, 'Bruno');
+INSERT INTO trainer_class VALUES (234, 'Brock');
+INSERT INTO trainer_class VALUES (235, 'Misty');
+INSERT INTO trainer_class VALUES (236, 'LtSurge');
+INSERT INTO trainer_class VALUES (237, 'Erika');
+INSERT INTO trainer_class VALUES (238, 'Koga');
+INSERT INTO trainer_class VALUES (239, 'Blaine');
+INSERT INTO trainer_class VALUES (240, 'Sabrina');
+INSERT INTO trainer_class VALUES (241, 'Gentleman');
+INSERT INTO trainer_class VALUES (242, 'Green2');
+INSERT INTO trainer_class VALUES (243, 'Green3');
+INSERT INTO trainer_class VALUES (244, 'Lorelei');
+INSERT INTO trainer_class VALUES (245, 'Channeler');
+INSERT INTO trainer_class VALUES (246, 'Agatha');
+INSERT INTO trainer_class VALUES (247, 'Lance');
+-------------------------------------------------------------------------------------------------------------------End of Trainer_Class Table----------------------------------------------
