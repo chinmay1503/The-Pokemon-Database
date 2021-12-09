@@ -709,6 +709,20 @@ INSERT INTO Trainer_pkmntypes VALUES (230, 2);
 INSERT INTO Trainer_pkmntypes VALUES (231, 11);
 INSERT INTO Trainer_pkmntypes VALUES (232, 2);
 
+CALL populate_trainer_pkmntypes('Rocket', 'Psychic')
+CALL populate_trainer_pkmntypes('Rocket', 'Poison')
+CALL populate_trainer_pkmntypes('Rocket', 'Normal')
+CALL populate_trainer_pkmntypes('Rocket', 'Flying')
+
+CALL populate_trainer_pkmntypes('Green3', 'Flying')
+CALL populate_trainer_pkmntypes('Green3', 'Fighting')
+CALL populate_trainer_pkmntypes('Green2', 'Flying')
+CALL populate_trainer_pkmntypes('Green2', 'Fighting')
+CALL populate_trainer_pkmntypes('Gentleman', 'Fighting')
+CALL populate_trainer_pkmntypes('Gentleman', 'Electric')
+CALL populate_trainer_pkmntypes('Gentleman', 'Fire')
+
+
 ----------------------------------------------------------------------------------------------------------------------------End of Trainer_pkmntypes Table------------------------------------------------
 
 
