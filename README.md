@@ -43,4 +43,4 @@ https://www.kaggle.com/mariotormo/complete-pokemon-dataset-updated-090420
 1. Chinmay Tawde
 2. Varun Jaisundar Raju
 
-Final write-up can be found at - 
+Final write-up can be found at - https://github.com/chinmay1503/The-Pokemon-Database/blob/main/DBMS%20Grad%20Project%20-%20Final%20Write-Up.pdf
